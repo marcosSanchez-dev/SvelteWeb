@@ -83,7 +83,7 @@ function introAnimations() {
 			<ul class="nav-list">
 				{#key mobileActive}
 				<li bind:this={homeWrapperElem}>
-					<div on:click={() => navigate($homeAnchor)} in:mobileTransitionSwitcher={{ delay: 200 }}>Hola mundo</div>
+					<div on:click={() => navigate($homeAnchor)} in:mobileTransitionSwitcher={{ delay: 200 }}>Home</div>
 				</li>
 				<li bind:this={workWrapperElem}>
 					<div on:click={() => navigate($workAnchor)} in:mobileTransitionSwitcher={{ delay: 250 }}>Work</div>
@@ -95,7 +95,7 @@ function introAnimations() {
 					<a href="mailto:musabhassan04@gmail.com" target="_blank" in:mobileTransitionSwitcher={{ delay: 350 }}>Email</a>
 				</li>
 				<li bind:this={githubElem}>
-					<a href="https://github.com/Musab-Hassan" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>Github</a>
+					<a href="https://github.com/Musab-Hassan" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>XR experiences </a>
 				</li>
 				{/key}
 			</ul>
@@ -138,8 +138,8 @@ function introAnimations() {
 
 	.flex-wrapper.ico
 		overflow: hidden
-		height: 6vh
-		width: 7vh
+		height: 19vh
+		width: 20vh
 		mix-blend-mode: exclusion
 		cursor: pointer
 
