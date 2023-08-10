@@ -88,11 +88,11 @@ function section2IntroAnimations() {
 <div id="content-container" class="about" bind:this={aboutSection1Container}>
 	<div class="content-wrapper">
 		<h1 class="title" bind:this={title}>
-			novem<br>xr
+			thinker and <br>maker
 		</h1>
 		<div bind:this={paragraph}>
 			<p class="paragraph">
-				From 2021 to mid-2023, he worked at Demiurgo, an international company specializing in location-based experiences. He held positions as Executive Producer and Storyteller, contributing to projects such as the "Siniestro VR Experience," "La Vecindad de El Chavo dpōrt VR Experience," and the "Aniversario de Consumación de la Independencia" event.<br><br>He previously served as an Executive Producer and Copywriter at DRAFTFCB, a global advertising agency, and as an Executive Producer & Screenwriter at Diezymedia, an animation studio. His portfolio boasts movies, festivals, commercials, experiential marketing campaigns for luxury brands, and large-scale events.He is also the mastermind behind the "Mexicráneos Exhibition" and the innovative "Biometric Immersion" concept, developed in collaboration with UNAM Neurosciences. He possesses an open and creative mindset that consistently delivers original solutions.
+				From 2021 to mid-2023, he worked at Demiurgo, an international company specializing in location-based experiences. He held positions as Executive Producer and Storyteller, contributing to projects such as the "Siniestro VR Experience," "La Vecindad de El Chavo dpōrt VR Experience," and the "Aniversario de Consumación de la Independencia" event.<br><br>He previously served as an Executive Producer and Copywriter at DRAFTFCB, a global advertising agency, and as an Executive Producer & Screenwriter at Diezymedia, an animation studio.<br><br>His portfolio boasts movies, festivals, commercials, experiential marketing campaigns for luxury brands, and large-scale events.<br><br>He is also the mastermind behind the "Mexicráneos Exhibition" and the innovative "Biometric Immersion" concept, developed in collaboration with UNAM Neurosciences.<br><br>He possesses an open and creative mindset that consistently delivers original solutions.
 				
 			</p>
 		</div>

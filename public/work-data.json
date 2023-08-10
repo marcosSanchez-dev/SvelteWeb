@@ -3,8 +3,8 @@
     "id": "lcml",
     "title": "REEL 23",
     "details": {
-      "description": "XR experiences & Immersive Entertainment Reel",
-      "summary": ""
+      "description": "We have promoted the reduction of the digital gap in Mexico with immersive experiences like Mexicraneos and created experiences for malls, brands and dreams.",
+      "summary": "XR experiences & Immersive Entertainment Reel."
     },
     "date": "",
     "roles": ["Director", "Executive Producer", "Experience Designer"],
@@ -13,6 +13,40 @@
         "type": "",
         "text": "View on Vimeo",
         "link": "https://vimeo.com/814681248"
+      }
+    ]
+  },
+  {
+    "id": "kic",
+    "title": "Magia",
+    "details": {
+      "description": "Let dreams take you to a magic world in an immersive dance show that combines digital sceneries, theatrical dance and a fantastic holographic mesh.",
+      "summary": "Immersive Live Show"
+    },
+    "date": "",
+    "roles": ["Co-Creator", "Executive Producer"],
+    "links": [
+      {
+        "type": "",
+        "text": "View on Vimeo",
+        "link": "https://vimeo.com/781922694"
+      }
+    ]
+  },
+  {
+    "id": "grillzzy",
+    "title": "Ek Balam",
+    "details": {
+      "description": "A mystical jaguar takes you to the underworld in a monumental mapping created for Day of Dead.",
+      "summary": "Video Mapping"
+    },
+    "date": "",
+    "roles": ["Creator", "Executive Producer"],
+    "links": [
+      {
+        "type": "",
+        "text": "View on Vimeo",
+        "link": "https://vimeo.com/383434423"
       }
     ]
   },
@@ -34,36 +68,19 @@
     ]
   },
   {
-    "id": "kic",
-    "title": "Magia",
+    "id": "mur",
+    "title": "Mur",
     "details": {
-      "description": "Immersive Live Show",
-      "summary": ""
+      "description": "An experimental video created by an artistic duo. Inspired by mezcal.",
+      "summary": "Instagram Content."
     },
     "date": "",
-    "roles": ["Co-Creator", "Executive Producer"],
+    "roles": ["Director", "Executive Producer"],
     "links": [
       {
         "type": "",
         "text": "View on Vimeo",
-        "link": "https://vimeo.com/781922694"
-      }
-    ]
-  },
-  {
-    "id": "grillzzy",
-    "title": "Ek Balam",
-    "details": {
-      "description": "Video Mapping",
-      "summary": ""
-    },
-    "date": "",
-    "roles": ["Creator", "Executive Producer"],
-    "links": [
-      {
-        "type": "",
-        "text": "View on Vimeo",
-        "link": "https://vimeo.com/383434423"
+        "link": "https://www.instagram.com/tv/CPUAIaujy65/?igshid=MzRlODBiNWFlZA=="
       }
     ]
   },
@@ -136,70 +153,19 @@
     ]
   },
   {
-    "id": "mur",
-    "title": "Mur",
-    "details": {
-      "description": "Instagram Content",
-      "summary": ""
-    },
-    "date": "",
-    "roles": ["Director", "Executive Producer"],
-    "links": [
-      {
-        "type": "",
-        "text": "View on Vimeo",
-        "link": "https://www.instagram.com/tv/CPUAIaujy65/?igshid=MzRlODBiNWFlZA=="
-      }
-    ]
-  },
-  {
     "id": "chivas",
-    "title": "Chivas Regal",
+    "title": "Diezymedia Reel",
     "details": {
-      "description": "Live Streaming",
+      "description": "Proudly Executive Producer in one of the best animation studios in that era.",
       "summary": ""
     },
     "date": "",
-    "roles": ["Director", "Executive Producer"],
+    "roles": ["Screenwriter ", "Executive Producer"],
     "links": [
       {
         "type": "",
-        "text": "View on Vimeo",
-        "link": "https://vimeo.com/483742841"
-      }
-    ]
-  },
-  {
-    "id": "principito",
-    "title": "El Principito en Todos Santos",
-    "details": {
-      "description": "Awarded  Shortfilm made with Iphone with kids.",
-      "summary": ""
-    },
-    "date": "",
-    "roles": ["Director", "Executive Producer"],
-    "links": [
-      {
-        "type": "",
-        "text": "View on Vimeo",
-        "link": "https://vimeo.com/328042571"
-      }
-    ]
-  },
-  {
-    "id": "mexique",
-    "title": "Viva Mexique",
-    "details": {
-      "description": "A mexican party for Jean Paul Gaultier",
-      "summary": ""
-    },
-    "date": "",
-    "roles": ["Project Leader"],
-    "links": [
-      {
-        "type": "",
-        "text": "View on Vimeo",
-        "link": "https://vimeo.com/244865498?share=copy"
+        "text": "View on YouTube",
+        "link": "https://www.youtube.com/watch?v=CNUufoldMas&feature=youtu.be"
       }
     ]
   },
@@ -221,14 +187,31 @@
     ]
   },
   {
-    "id": "photo",
-    "title": "Photography",
+    "id": "mexique",
+    "title": "Viva Mexique",
     "details": {
-      "description": "Inspire you to dream",
+      "description": "A mexican party for Jean Paul Gaultier, wrestlers, mariachis, a huge venue, flowers, props, a runway and many more for the master.",
       "summary": ""
     },
     "date": "",
-    "roles": ["Photographer"],
+    "roles": ["Project Leader"],
+    "links": [
+      {
+        "type": "",
+        "text": "View on Vimeo",
+        "link": "https://vimeo.com/244865498?share=copy"
+      }
+    ]
+  },
+  {
+    "id": "photo",
+    "title": "Photography",
+    "details": {
+      "description": "Some editorial photo published in Vogue online",
+      "summary": ""
+    },
+    "date": "",
+    "roles": ["Product shots", "Events", "Landscape", "Musas"],
     "links": [
       {
         "type": "",

@@ -173,7 +173,7 @@ function introAnimations() {
 			</div>
 
 			<div class="parallax-wrapper home-back" bind:this={backgroundContainer}>
-				{#await loadImage("assets/imgs/home-back.jpg") then src}
+				{#await loadImage("assets/imgs/home-back.png") then src}
 					<img src="{src}" bind:this={backgroundImage} draggable="false" alt="Home Background" style="width:100%; height: 100%; object-fit: cover;">
 				{/await}
 			</div>
