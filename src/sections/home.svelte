@@ -33,30 +33,30 @@ function introAnimations() {
 	let animation = [{ strokeDashoffset: '0' }];
 
 	// Signature animation using svg strokDashOffset
-	path1.animate(animation, {
-		duration: 1000,
-		delay: 500,
-		easing: 'cubic-bezier(.72,.3,.25,1)',
-		fill: 'forwards' 
-	});
-	path2.animate(animation, {
-		duration: 300,
-		delay: 1500,
-		easing: 'cubic-bezier(.47,.41,.26,1)',
-		fill: 'forwards' 
-	});
-	path3.animate(animation, {
-		duration: 200,
-		delay: 1800,
-		easing: 'cubic-bezier(.47,.41,.26,1)',
-		fill: 'forwards' 
-	});
-	path4.animate(animation, {
-		duration: 1000,
-		delay: 2000,
-		easing: 'cubic-bezier(.47,.41,.26,1)',
-		fill: 'forwards' 
-	});
+	// path1.animate(animation, {
+	// 	duration: 1000,
+	// 	delay: 500,
+	// 	easing: 'cubic-bezier(.72,.3,.25,1)',
+	// 	fill: 'forwards' 
+	// });
+	// path2.animate(animation, {
+	// 	duration: 300,
+	// 	delay: 1500,
+	// 	easing: 'cubic-bezier(.47,.41,.26,1)',
+	// 	fill: 'forwards' 
+	// });
+	// path3.animate(animation, {
+	// 	duration: 200,
+	// 	delay: 1800,
+	// 	easing: 'cubic-bezier(.47,.41,.26,1)',
+	// 	fill: 'forwards' 
+	// });
+	// path4.animate(animation, {
+	// 	duration: 1000,
+	// 	delay: 2000,
+	// 	easing: 'cubic-bezier(.47,.41,.26,1)',
+	// 	fill: 'forwards' 
+	// });
 
 
 	// Animate background image
