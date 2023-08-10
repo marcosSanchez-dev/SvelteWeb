@@ -70,7 +70,7 @@ function introAnimations() {
 	<div class="flex-wrapper ico" style="z-index: 21;">
 		<img 
 			bind:this={logoElem} 
-			src="assets/imgs/logo.svg"
+			src="assets/imgs/logo.png"
 			class = "logo-icon clickable"
 			alt="Logo"
 			draggable="false"

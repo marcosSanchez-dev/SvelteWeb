@@ -137,7 +137,7 @@ async function introAnimations() {
         </svg> -->
         <div class="logo-wrapper">
             <div class="inline-flex" bind:this={logoElem}>
-                <img src="assets/imgs/logo.svg" alt="mh logo" class="logo">
+                <img src="assets/imgs/logo.png" alt="mh logo" class="logo">
             </div>
         </div>
     </div>
@@ -183,7 +183,7 @@ async function introAnimations() {
 
         .logo
             display: inline-block
-            height: 6vh
+            height: 20vh
 
     .status-wrapper
         .button.large-text

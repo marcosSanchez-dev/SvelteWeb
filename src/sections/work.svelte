@@ -119,7 +119,7 @@ onMount(async () => {
 	 // Begin slider animations and effects if device is not a phone
 	if (!gpuTier.isMobile) slider.animate();
 	// ThreeJS warping effect if device can handle it
-	if (gpuTier.tier >= 2 && !gpuTier.isMobile && gpuTier.fps >= 30) new ImageRenderer(container, images);
+	// if (gpuTier.tier >= 2 && !gpuTier.isMobile && gpuTier.fps >= 30) new ImageRenderer(container, images);
 
 	// Intersection observer for scroll animations
 	animationObserver.observe(workContainer);
