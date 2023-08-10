@@ -88,19 +88,23 @@ function section2IntroAnimations() {
 <div id="content-container" class="about" bind:this={aboutSection1Container}>
 	<div class="content-wrapper">
 		<h1 class="title" bind:this={title}>
-			The Name's<br>Musab
+			novem<br>xr
 		</h1>
 		<div bind:this={paragraph}>
 			<p class="paragraph">
-				I'm a web developer from British Columbia, Canada. I specialize in designing and developing web experiences<br><br>I work with organizations and individuals to create beautiful, responsive, and scalable web products tailor-made for them. Think we can make something great together? Let's talk over email.
+				From 2021 to mid-2023, he worked at Demiurgo <a href="https://www.demiurgo.xyz/" target="_blank">www.demiurgo.xyz</a>, an international company specializing in location-based experiences. He held positions as Executive Producer and Storyteller, contributing to projects such as the "Siniestro VR Experience," "La Vecindad de El Chavo dpōrt VR Experience," and the "Aniversario de Consumación de la Independencia" event.<br><br>He previously served as an Executive Producer and Copywriter at DRAFTFCB, a global advertising agency, and as an Executive Producer & Screenwriter at Diezymedia, an animation studio. His portfolio boasts movies, festivals, commercials, experiential marketing campaigns for luxury brands, and large-scale events.He is also the mastermind behind the "Mexicráneos Exhibition" and the innovative "Biometric Immersion" concept, developed in collaboration with UNAM Neurosciences. He possesses an open and creative mindset that consistently delivers original solutions.
+				
 			</p>
 		</div>
 		<div class="social-button-wrapper">
-			<div bind:this={emailLink}>
+			<!-- <div bind:this={emailLink}>
 				<span class="button"><a href="mailto:musabhassan04@gmail.com" target="_blank" class="clickable sublink link">Email Me</a></span>
+			</div> -->
+			<div bind:this={emailLink}>
+				<span class="button" bind:this={emailLink}><a href="https://www.linkedin.com/in/ivanrodriguezbarrera/" target="_blank" class="clickable sublink link">LinkedIn</a></span>
 			</div>
 			<div bind:this={githubLink}>
-				<span class="button" bind:this={githubLink}><a href="https://github.com/Musab-Hassan" target="_blank" class="clickable sublink link">Github</a></span>
+				<span class="button" bind:this={githubLink}><a href="https://www.instagram.com/ivan.novem/" target="_blank" class="clickable sublink link">Instagram</a></span>
 			</div>
 		</div>
 	</div>
@@ -121,45 +125,55 @@ function section2IntroAnimations() {
 			</li>
 			<li>
 				<div in:letterSlideIn={{ initDelay: 550 }}>
-					Front-end
+					Keynote
 				</div>
-				<div 
+				<!-- <div 
 					class="flex-item" 
 					in:maskSlideIn={{ delay: 600 }}>
 					<img src="assets/imgs/svg-icons/angular.svg" alt="angular">
 					<img src="assets/imgs/svg-icons/svelte.svg" alt="svelte">
-				</div>
+				</div> -->
 			</li>
 			<li>
 				<div in:letterSlideIn={{ initDelay: 650 }}>
-					Mobile
+					Photoshop 
 				</div>
-				<div class="flex-item" in:maskSlideIn={{ delay: 700 }}>
+				<!-- <div class="flex-item" in:maskSlideIn={{ delay: 700 }}>
 					<img src="assets/imgs/svg-icons/flutter.svg" alt="flutter">
 					<img src="assets/imgs/svg-icons/android.svg" alt="native android">
 					<img src="assets/imgs/svg-icons/iOS.svg" alt="native ios">
-				</div>
+				</div> -->
 			</li>
 			<li>
 				<div in:letterSlideIn={{ initDelay: 750 }}>
-					Back-end
+					Light room
 				</div>
-				<div class="flex-item" in:maskSlideIn={{ delay: 800 }}>
+				<!-- <div class="flex-item" in:maskSlideIn={{ delay: 800 }}>
 					<img src="assets/imgs/svg-icons/firebase.svg" alt="firebase">
 					<img src="assets/imgs/svg-icons/nodejs.svg" alt="node js">
 					<img src="assets/imgs/svg-icons/php.svg" alt="php">
 					<img src="assets/imgs/svg-icons/mysql.svg" alt="mySQL">
-				</div>
+				</div> -->
 			</li>
 			<li>
 				<div in:letterSlideIn={{ initDelay: 850 }}>
-					Design
+					Illustrator
 				</div>
-				<div class="flex-item" 
+				<!-- <div class="flex-item" 
 					in:maskSlideIn={{ delay: 900 }}>
 					<img src="assets/imgs/svg-icons/illustrator.svg" alt="adobe illustrator">
 					<img src="assets/imgs/svg-icons/xd.svg" alt="adobe xd">
+				</div> -->
+			</li>
+			<li>
+				<div in:letterSlideIn={{ initDelay: 900 }}>
+					DSRL Cameras
 				</div>
+				<!-- <div class="flex-item" 
+					in:maskSlideIn={{ delay: 900 }}>
+					<img src="assets/imgs/svg-icons/illustrator.svg" alt="adobe illustrator">
+					<img src="assets/imgs/svg-icons/xd.svg" alt="adobe xd">
+				</div> -->
 			</li>
 		</ul>
 		<ul class="list">
@@ -170,7 +184,22 @@ function section2IntroAnimations() {
 			</li>
 			<li>
 				<div in:letterSlideIn={{ initDelay: 550 }}>
-					1x — Awwwards Honors
+					VR FEST MX
+				</div>
+			</li>
+			<li>
+				<div in:letterSlideIn={{ initDelay: 600 }}>
+					EFFIE
+				</div>
+			</li>
+			<li>
+				<div in:letterSlideIn={{ initDelay: 650 }}>
+					REED LATINO
+				</div>
+			</li>
+			<li>
+				<div in:letterSlideIn={{ initDelay: 700 }}>
+					FCTS
 				</div>
 			</li>
 		</ul>

@@ -80,11 +80,11 @@ async function introAnimations() {
 <div class="footer-wrapper" bind:this={footerContainer}>
     <!-- Left side -->
     <div class="flex-wrapper">
-        <div class="logo-wrapper">
+        <!-- <div class="logo-wrapper">
             <div class="inline-flex" bind:this={logoElem}>
                 <img src="assets/imgs/logo.svg" alt="mh logo" class="logo">
             </div>
-        </div>
+        </div> -->
 
         <div class="status-wrapper">
             {#await dataFetch then fetchedData}
@@ -98,21 +98,20 @@ async function introAnimations() {
                     </p>
                 {/if}
             {/await}
-            <a class="button large-text" bind:this={fullEmailLinkElem} href="mailto:musabhassan04@gmail.com" target="_blank">musabhassan04@gmail.com</a>
+            <a class="button large-text" bind:this={fullEmailLinkElem} href="mailto:ivanovem09@gmail.com" target="_blank">ivanovem09@gmail.com</a>
         </div>
         
         <div class="credits-wrapper" bind:this={creditsElem}>
             <p class="year">© {currentYear}</p>
             <p class="credits">
-                designed and developed by musab hassan<br>this webste is open source on github
+                website developed by marcos sanchez
             </p>
         </div>
     </div>
 
     <!-- Right side -->
 	<div class="flex-wrapper decor">
-        <!-- Musab Hassan SVG Signature -->
-        <svg id="signature" class="name-signature" x="0px" y="0px" viewBox="0 0 190 136.9" style="stroke: rgb(79, 78, 85);">
+        <!-- <svg id="signature" class="name-signature" x="0px" y="0px" viewBox="0 0 190 136.9" style="stroke: rgb(79, 78, 85);">
             <g>
                 <path
                     bind:this={signaturePath1}
@@ -135,7 +134,12 @@ async function introAnimations() {
                     style="fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;"
                     d="M122,74.4c0,0-5.9-8-17.1-6.7c-11.1,1.3-20.2,11.3-21.1,12.6c-0.9,1.3-10,9.6,2.2,15s38.9-7.2,38.9-7.2s17.8-10,18.9-10s-4.6,5.9-4.3,7.2c0.4,1.3,2.8,2,7.2-1.5c1-0.8,17.2-0.8,22.2,1c1.9,0.7,3.5-0.2,5-1.4c1-0.8,9.4,2,9.4,2"/>
             </g>
-        </svg>
+        </svg> -->
+        <div class="logo-wrapper">
+            <div class="inline-flex" bind:this={logoElem}>
+                <img src="assets/imgs/logo.svg" alt="mh logo" class="logo">
+            </div>
+        </div>
     </div>
 </div>
 
@@ -165,6 +169,7 @@ async function introAnimations() {
 
         .flex-wrapper:not(:first-child)
             margin-bottom: 15vh
+
 
     .inline-flex
         flex-grow: 1
