@@ -394,7 +394,7 @@ function titleSlide(node) {
 					position: relative
 					font-family: $titleFont
 					font-size: 7vw
-					text-transform: lowercase
+					text-transform: none
 					font-weight: normal
 					word-wrap: break-word
 					white-space: normal
@@ -635,7 +635,7 @@ function titleSlide(node) {
 					letter-spacing: 0.1vw
 					line-height: 110%
 					word-spacing: 80vw
-					text-transform: lowercase
+					text-transform: none
 					word-wrap: break-word
 					white-space: normal
 
