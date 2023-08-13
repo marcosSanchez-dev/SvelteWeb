@@ -149,12 +149,12 @@ function introAnimations() {
 				</h1>
 				<div class="occupation mask">
 						<ul class = "paragraph" bind:this={shortDetails}>
-							<li><p> Independent Transmedia storyteller</p></li>
+							<li><p> Independent Transmedia storyteller.</p></li>
 							<li><p> Executive Producer, Screenwriter + Researcher. 
 							</p></li>
 							<li><p> Award-winning creator of Immersive Entertainment by combining edge technology & XR. 
 							</p></li> 
-							<li><p> <b> Content director & photographer</b></p></li>
+							<li><p> <b> Content director & photographer.</b></p></li>
 
 						</ul>
 				</div>
