@@ -154,7 +154,7 @@ function introAnimations() {
 							</p></li>
 							<li><p> Award-winning creator of Immersive Entertainment by combining edge technology & XR. 
 							</p></li> 
-							<li><p> <b> Anywise Thinker & Maker</b></p></li>
+							<li><p> <b> Content director & photographer</b></p></li>
 
 						</ul>
 				</div>

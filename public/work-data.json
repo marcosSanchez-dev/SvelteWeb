@@ -7,7 +7,12 @@
       "summary": "XR experiences & Immersive Entertainment Reel."
     },
     "date": "",
-    "roles": ["Director", "Executive Producer", "Experience Designer"],
+    "roles": [
+      "Director",
+      "Executive Producer",
+      "Experience Designer",
+      "Creator"
+    ],
     "links": [
       {
         "type": "",
@@ -79,7 +84,7 @@
     "links": [
       {
         "type": "",
-        "text": "View on Vimeo",
+        "text": "View on Instagram",
         "link": "https://www.instagram.com/tv/CPUAIaujy65/?igshid=MzRlODBiNWFlZA=="
       }
     ]
@@ -215,8 +220,8 @@
     "links": [
       {
         "type": "",
-        "text": "",
-        "link": ""
+        "text": "View on Behance",
+        "link": "https://www.behance.net/novemxr"
       }
     ]
   }

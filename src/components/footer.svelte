@@ -98,13 +98,13 @@ async function introAnimations() {
                     </p>
                 {/if}
             {/await}
-            <a class="button large-text" bind:this={fullEmailLinkElem} href="mailto:ivanovem09@gmail.com" target="_blank">ivanovem09@gmail.com</a>
+            <a class="button large-text" bind:this={fullEmailLinkElem} href="mailto:novemxr@gmail.com" target="_blank">novemxr@gmail.com</a>
         </div>
         
         <div class="credits-wrapper" bind:this={creditsElem}>
             <p class="year">© {currentYear}</p>
             <p class="credits">
-                website developed by marcos sanchez
+                website developed by <a href="https://www.marcossanchez.dev/" target="_blank">marcos sanchez</a>
             </p>
         </div>
     </div>

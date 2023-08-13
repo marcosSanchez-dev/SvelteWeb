@@ -92,10 +92,10 @@ function introAnimations() {
 					<div on:click={() => navigate($aboutAnchor)} in:mobileTransitionSwitcher={{ delay: 300 }}>About</div>
 				</li>
 				<li class="mobile">
-					<a href="mailto:ivanovem09@gmail.com" target="_blank" in:mobileTransitionSwitcher={{ delay: 350 }}>Email</a>
+					<a href="mailto:novemxr@gmail.com" target="_blank" in:mobileTransitionSwitcher={{ delay: 350 }}>Email</a>
 				</li>
 				<li bind:this={githubElem}>
-					<a href="https://vimeo.com/wecon" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>Vimeo channel </a>
+					<a href="https://www.behance.net/novemxr" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>Behance channel </a>
 				</li>
 				{/key}
 			</ul>
