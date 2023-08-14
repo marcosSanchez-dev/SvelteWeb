@@ -95,7 +95,7 @@ function introAnimations() {
 					<a href="mailto:novemxr@gmail.com" target="_blank" in:mobileTransitionSwitcher={{ delay: 350 }}>Email</a>
 				</li>
 				<li bind:this={githubElem}>
-					<a href="https://www.behance.net/novemxr" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>Behance channel </a>
+					<a href="https://www.behance.net/novemxr" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>Behance book </a>
 				</li>
 				{/key}
 			</ul>
