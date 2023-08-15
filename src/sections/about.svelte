@@ -285,6 +285,7 @@ function section2IntroAnimations() {
 			position: relative
 			width: 60%
 			line-height: 1.5rem
+			max-width: fit-content
 
 			@media only screen and (max-width: 750px)
 				&
