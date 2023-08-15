@@ -223,11 +223,6 @@ function section2IntroAnimations() {
 					Caracol de Plata
 				</div>
 			</li>
-			<li>
-				<div in:letterSlideIn={{ initDelay: 700 }}>
-					Festival de Cine de la Mujer en Punta del Este (Co- Director “El Principito en TS”)
-				</div>
-			</li>
 		</ul>
 	{/await}
 </div>
