@@ -66,7 +66,6 @@ function introAnimations() {
 
 
 <div class="nav-wrapper" style="transform: translate(0px);">
-	<!-- Logo -->
 	<div class="flex-wrapper ico" style="z-index: 21;">
 		<img 
 			bind:this={logoElem} 
@@ -77,6 +76,7 @@ function introAnimations() {
 			on:click={() => navigate($homeAnchor)}>
 	</div>
 	
+	<!-- Logo -->
 	<div class="flex-wrapper">
 		<!-- Mobile and desktop nav menu -->
 		<div class="wrapper" class:mobileActive>
@@ -142,12 +142,16 @@ function introAnimations() {
 		width: 20vh
 		mix-blend-mode: exclusion
 		cursor: pointer
+		display: flex
+		justify-content: start
+		align-items: center
 
 		.logo-icon
 			position: relative
 			display: inline-block
-			height: 100%
-			width: 100%
+			height: 60%
+			width: 60%
+			z-index: -10
 
 	@media only screen and (min-width: 950px)
 		ul.nav-list

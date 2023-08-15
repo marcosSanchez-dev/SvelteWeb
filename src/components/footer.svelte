@@ -34,30 +34,30 @@ async function introAnimations() {
                 let animation = [{ strokeDashoffset: '0' }];
 
                 // Signature animation using svg strokDashOffset
-                signaturePath1.animate(animation, {
-                    duration: 1000,
-                    delay: 0,
-                    easing: 'cubic-bezier(.72,.3,.25,1)',
-                    fill: 'forwards' 
-                });
-                signaturePath2.animate(animation, {
-                    duration: 300,
-                    delay: 1000,
-                    easing: 'cubic-bezier(.47,.41,.26,1)',
-                    fill: 'forwards' 
-                });
-                signaturePath3.animate(animation, {
-                    duration: 200,
-                    delay: 1300,
-                    easing: 'cubic-bezier(.47,.41,.26,1)',
-                    fill: 'forwards' 
-                });
-                signaturePath4.animate(animation, {
-                    duration: 1000,
-                    delay: 1500,
-                    easing: 'cubic-bezier(.47,.41,.26,1)',
-                    fill: 'forwards' 
-                });
+                // signaturePath1.animate(animation, {
+                //     duration: 1000,
+                //     delay: 0,
+                //     easing: 'cubic-bezier(.72,.3,.25,1)',
+                //     fill: 'forwards' 
+                // });
+                // signaturePath2.animate(animation, {
+                //     duration: 300,
+                //     delay: 1000,
+                //     easing: 'cubic-bezier(.47,.41,.26,1)',
+                //     fill: 'forwards' 
+                // });
+                // signaturePath3.animate(animation, {
+                //     duration: 200,
+                //     delay: 1300,
+                //     easing: 'cubic-bezier(.47,.41,.26,1)',
+                //     fill: 'forwards' 
+                // });
+                // signaturePath4.animate(animation, {
+                //     duration: 1000,
+                //     delay: 1500,
+                //     easing: 'cubic-bezier(.47,.41,.26,1)',
+                //     fill: 'forwards' 
+                // });
 
                 animationObserver.disconnect();
             }
