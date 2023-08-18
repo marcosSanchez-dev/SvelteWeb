@@ -73,7 +73,7 @@ function introAnimations() {
 			class = "logo-icon clickable"
 			alt="Logo"
 			draggable="false"
-			on:click={() => navigate($homeAnchor)} >
+			on:click={() => navigate($homeAnchor)}>
 	</div>
 	
 	<!-- Logo -->
@@ -145,7 +145,9 @@ function introAnimations() {
 		display: flex
 		justify-content: start
 		align-items: center
-		
+	
+	.flex-wrapper.ico img
+		width:100%		
 
 		.logo-icon
 			position: relative
