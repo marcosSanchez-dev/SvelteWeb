@@ -73,7 +73,7 @@ function introAnimations() {
 			class = "logo-icon clickable"
 			alt="Logo"
 			draggable="false"
-			on:click={() => navigate($homeAnchor)} style='min-width:fit-content;'>
+			on:click={() => navigate($homeAnchor)} >
 	</div>
 	
 	<!-- Logo -->
