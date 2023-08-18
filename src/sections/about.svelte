@@ -92,7 +92,7 @@ function section2IntroAnimations() {
 		</h1>
 		<div bind:this={paragraph}>
 			<p class="paragraph">
-				From 2021 to mid-2023, he worked at Demiurgo, an international company specializing in location-based experiences. He held positions as Executive Producer and Storyteller, contributing to projects such as the "Aztlan's VR Experience", "La Vecindad de El Chavo dpōrt VR Experience," and the "Aniversario de la Consumación de la Independencia, Zócalo, CDMX”" event.<br><br>He previously served as an Executive Producer and Copywriter at Draft Fcb a global advertising agency.<br><br> A global advertising agency, and as an Executive Producer & Screenwriter at Diezymedia, an animation studio.<br><br>His portfolio boasts movies, festivals, commercials, experiential marketing campaigns for luxury brands and large-scale events.<br><br>He is also the mastermind behind the "Mexicráneos Exhibition" and the innovative "Biometric Immersion" concept, developed in collaboration with UNAM Neurosciences.<br><br>He posseses an open and creative mindset that consistently delivers original solutions.
+				From 2021 to mid-2023, he worked at Demiurgo, an international company specializing in location-based experiences. He held positions as Executive Producer and Storyteller, contributing to projects such as the "Aztlan's VR Experience", "La Vecindad de El Chavo dpōrt VR Experience," and the "Aniversario de la Consumación de la Independencia, Zócalo, CDMX”" event.<br><br>He previously served as an Executive Producer and Copywriter at DRAFTFCB worldwide advertising agency.<br><br>He worked as an Executive Producer & Screenwriter at Diezymedia, one of the best stop motion animation studios in MX.<br><br>His portfolio boasts movies, festivals, commercials, experiential marketing campaigns for luxury brands and large-scale events.<br><br>He is also the mastermind behind the "Mexicráneos Exhibition" and the innovative "Biometric Immersion" concept, developed in collaboration with UNAM Neurosciences.<br><br>He posseses an open and creative mindset that consistently delivers original solutions.
 				
 			</p>
 		</div>
@@ -195,6 +195,11 @@ function section2IntroAnimations() {
 			</li>
 			<li>
 				<div in:letterSlideIn={{ initDelay: 550 }}>
+					FICMA
+				</div>
+			</li>
+			<li>
+				<div in:letterSlideIn={{ initDelay: 550 }}>
 					VR FEST MX
 				</div>
 			</li>
@@ -216,11 +221,6 @@ function section2IntroAnimations() {
 			<li>
 				<div in:letterSlideIn={{ initDelay: 700 }}>
 					Caracol de Plata
-				</div>
-			</li>
-			<li>
-				<div in:letterSlideIn={{ initDelay: 700 }}>
-					Festival de Cine de la Mujer en Punta del Este ( Co- Director “El Principito en TS”)
 				</div>
 			</li>
 		</ul>
@@ -285,6 +285,7 @@ function section2IntroAnimations() {
 			position: relative
 			width: 60%
 			line-height: 1.5rem
+			max-width: fit-content
 
 			@media only screen and (max-width: 750px)
 				&

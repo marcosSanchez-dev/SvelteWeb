@@ -4,6 +4,10 @@ import anime from "animejs";
 import { onMount } from "svelte";
 import { homeAnchor, loadPagePromise, slickScrollInstance } from "../store";
 import { loadImage } from "../utils";
+import { ImageRenderer } from "../effects/work-slider/renderer";
+import { getGPUTier } from 'detect-gpu';
+
+
 
 // DOM Node Binds for animations
 let homeContainer; // Container
@@ -22,6 +26,11 @@ onMount(async () => {
 		element: backgroundContainer,
 		speedY: 0.8
 	});
+
+	const gpuTier = await getGPUTier();
+    if (gpuTier.tier >= 2 && !gpuTier.isMobile && gpuTier.fps >= 30) {
+        new ImageRenderer(homeContainer, [backgroundImage]);
+    }
 
 	introAnimations();
 })
