@@ -74,7 +74,7 @@ function introAnimations() {
 			class = "logo-icon clickable"
 			alt="Logo"
 			draggable="false"
-			on:click={() => navigate($homeAnchor)}>
+			on:click={() => navigate($homeAnchor)} style='min-width:fit-content;'>
 	</div>
 	
 	<div class="flex-wrapper">
@@ -138,10 +138,11 @@ function introAnimations() {
 
 	.flex-wrapper.ico
 		overflow: hidden
-		height: 19vh
-		width: 20vh
+		height: 10vh
+		width: 11vh
 		mix-blend-mode: exclusion
 		cursor: pointer
+		min-width: fit-content
 
 		.logo-icon
 			position: relative
