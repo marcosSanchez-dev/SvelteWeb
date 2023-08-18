@@ -145,7 +145,7 @@ function introAnimations() {
 		display: flex
 		justify-content: start
 		align-items: center
-		
+		min-width: fit-content
 
 		.logo-icon
 			position: relative
