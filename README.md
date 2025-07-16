@@ -4,7 +4,7 @@
 
 This is the source code for my (Musab Hassan) personal portfolio.
 
-[![Visit Live Site](https://img.shields.io/badge/Visit%20Live%20Site-success?style=for-the-badge)](https://musabhassan.com)
+[![Visit Live Site](https://img.shields.io/badge/Visit%20Live%20Site-success?style=for-the-badge)](https://lucent-youtiao-a47967.netlify.app/)
 
 ### Source Information
 This website is built with
