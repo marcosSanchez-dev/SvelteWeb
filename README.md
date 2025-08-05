@@ -1,6 +1,4 @@
-<h1 align="center">
-    musabhassan.com
-</h1>
+
 
 This is the source code for my (Musab Hassan) personal portfolio.
 
